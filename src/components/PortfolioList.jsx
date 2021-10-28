@@ -79,10 +79,14 @@ const Portfoliolist = () => {
             <Image src={item.img} />
             <Icons>
               <Icon>
-                <Link />
+                <a className="link" href={item.web}>
+                  <Link />
+                </a>
               </Icon>
               <Icon>
-                <GitHub />
+                <a className="link" href={item.git}>
+                  <GitHub />
+                </a>
               </Icon>
             </Icons>
           </Leftside>
